@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Lato&family=Poppins:wght@300&display=swap');
+
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin-top: 7vh;
+}
+
+.container-main {
+  margin: 0px auto 0px auto;
+  height: 340px;
+  width: 340px;
+  border-style: solid;
+  border-color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-row {
+  height: 33.33%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.container-box {
+  height: 100%;
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-box-row2 {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #333;
+}
+
+#box2 {
+  border-left-style: solid;
+  border-right-style: solid;
+  border-color: #333;
+}
+#box5 {
+  border-left-style: solid;
+  border-right-style: solid;
+  border-color: #333;
+}
+
+#box8 {
+  border-left-style: solid;
+  border-right-style: solid;
+  border-color: #333;
+}
+
+.container-HUD {
+  margin: 30px auto -10px auto;
+  padding: 0;
+  height: 100px;
+  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container-HUD-segment-display {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 40%;
+  border-radius: 10px;
+  border-width: 3px;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.container-HUD-segment-button {
+  height: 100%;
+  width: 16.66%;
+  font-size: 130%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  
+  
+}
+
+.container-HUD-segment-button:hover{
+  cursor: pointer;
+}
+
+#HUD-segment2 {
+  background: #333;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Poppins', sans-serif;
+}
+
+#HUD-segment3 {
+background: #333;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 70px;
+  color: #333;
+  
+}
+
+
+#Reset {
+  height: 100%;
+  width: 20%;
+  border-radius: 10px;
+  background-color: rgb(232, 229, 229);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hide-button {
+  display: none;
+}
